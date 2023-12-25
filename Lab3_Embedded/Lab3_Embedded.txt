@@ -1,0 +1,78 @@
+Configuration	Lab3_Embedded
+STM32CubeMX 	6.10.0
+Date	12/25/2023
+MCU	STM32F411RETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM4	Output Compare CH1	TIM4_CH1	PB6
+TIM4	Output Compare CH2	TIM4_CH2	PB7
+TIM4	Output Compare CH3	TIM4_CH3	PB8
+TIM4	Output Compare CH4	TIM4_CH4	PB9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+5	PH0 - OSC_IN*	RCC_OSC_IN	
+6	PH1 - OSC_OUT*	RCC_OSC_OUT	
+46	PA13*	SYS_JTMS-SWDIO	TMS
+49	PA14*	SYS_JTCK-SWCLK	TCK
+58	PB6	TIM4_CH1	LD_1
+59	PB7	TIM4_CH2	LD_2
+61	PB8	TIM4_CH3	LD_3
+62	PB9	TIM4_CH4	LD_4
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM4	Internal Clock	TIM4_VS_ClockSourceINT	VP_TIM4_VS_ClockSourceINT
+TIM4	Output Compare CH1	TIM4_CH1	PB6
+TIM4	Output Compare CH2	TIM4_CH2	PB7
+TIM4	Output Compare CH3	TIM4_CH3	PB8
+TIM4	Output Compare CH4	TIM4_CH4	PB9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_EXTI13	B1 [Blue PushButton]
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+5	PH0 - OSC_IN*	RCC_OSC_IN	
+6	PH1 - OSC_OUT*	RCC_OSC_OUT	
+46	PA13*	SYS_JTMS-SWDIO	TMS
+49	PA14*	SYS_JTCK-SWCLK	TCK
+58	PB6	TIM4_CH1	LD_1
+59	PB7	TIM4_CH2	LD_2
+61	PB8	TIM4_CH3	LD_3
+62	PB9	TIM4_CH4	LD_4
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Lab3_Embedded
+Project Folder : /Users/maxim/Desktop/STM32_Labs/Lab3_Embedded
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.28.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
